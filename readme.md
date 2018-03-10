@@ -1,7 +1,6 @@
-## BuddySchoolCrawler
+## Allegro API Wrapper
 
-Application for crawling BuddySchool site.
-Allows to search article and download dumped to text file.
+TODO: description
 
 ### Technology stack
 * PHP: 7.2.*
@@ -20,7 +19,7 @@ Allows to search article and download dumped to text file.
 ##### Start
 ```
 $ docker-compose up -d
-$ docker exec -it App-php bash
+$ docker exec -it allegro-api-php bash
 $ composer install
 ```
 
