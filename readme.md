@@ -2,6 +2,8 @@
 
 TODO: description
 
+OAuth via REST Api
+
 ### Technology stack
 * PHP: 7.2.*
 * Laravel 5.6
