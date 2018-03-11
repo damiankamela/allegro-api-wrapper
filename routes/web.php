@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomepageController@welcome')->name('homepage');
+
+Route::get('login', 'OauthController@login')->name('login');
+Route::get('oauth_login', 'OauthController@oauthLogin');
+Route::get('oauth', 'OauthController@oauthCallback');
